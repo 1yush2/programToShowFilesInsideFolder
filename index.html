@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Program</title>
+    <script defer src="script.js"></script>
+  </head>
+  <style>
+    #flList {
+      display: flex;
+    }
+    #flList > * {
+      margin: auto 10px;
+    }
+  </style>
+  <body>
+    <h1>Program to retrive all the files inside folder</h1>
+
+    <h2>Our Folders</h2>
+    <div id="flList"></div>
+    <ul id="ulList"></ul>
+
+    <button onclick="show()">Click to Show Files</button>
+    //folder are classifed as object and string as file in the program.
+  </body>
+</html>
